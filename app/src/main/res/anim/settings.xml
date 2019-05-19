@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <alpha
+        android:fromAlpha="0"
+        android:toAlpha="1"
+        android:duration = "2000"/>
+    <translate
+        android:fromXDelta="0"
+        android:fromYDelta="0"
+        android:toXDelta="0"
+        android:toYDelta="150%"
+        android:duration="2000"
+        />
+    <rotate
+        android:startOffset="2000"
+        android:fromDegrees="0"
+        android:toDegrees="1800"
+        android:pivotX="50%"
+        android:pivotY="200%"
+        android:duration ="5000"
+        />
+</set>
